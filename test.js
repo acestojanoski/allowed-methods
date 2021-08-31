@@ -54,8 +54,8 @@ test('should return `Method Not Allowed` if the method is not included in the ar
 	const url = await testListen(server);
 
 	const error = await t.throwsAsync(got(url));
-	t.is(error?.response?.statusCode, 405);
-	t.is(error?.response?.headers?.allow, 'POST');
+	t.is(error.response.statusCode, 405);
+	t.is(error.response.headers.allow, 'POST');
 });
 
 test('should return success if the method is included in the array of methods', async t => {
