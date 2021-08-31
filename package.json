@@ -42,6 +42,9 @@
 		"xo": "^0.44.0"
 	},
 	"xo": {
+		"ignores": [
+			"examples"
+		],
 		"rules": {
 			"unicorn/prefer-module": "off",
 			"unicorn/prevent-abbreviations": "off",
