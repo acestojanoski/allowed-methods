@@ -1,0 +1,15 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "next",
+		"start": "next start",
+		"build": "next build"
+	},
+	"dependencies": {
+		"allowed-methods": "latest",
+		"axios": "^0.21.1",
+		"next": "^11.1.2",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	}
+}

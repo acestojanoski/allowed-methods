@@ -1,0 +1,11 @@
+{
+	"private": true,
+	"main": "index.js",
+	"scripts": {
+		"start": "micro"
+	},
+	"dependencies": {
+		"allowed-methods": "latest",
+		"micro": "^9.3.4"
+	}
+}
