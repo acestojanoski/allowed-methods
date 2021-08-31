@@ -2,7 +2,7 @@
 
 > Allow a set of HTTP methods
 
-![build](https://github.com/acestojanoski/allowed-methods/actions/workflows/main.yml/badge.svg?branch=master)
+![CI](https://github.com/acestojanoski/allowed-methods/actions/workflows/main.yml/badge.svg?branch=master)
 [![Downloads](https://img.shields.io/npm/dm/allowed-methods.svg)](https://npmjs.com/allowed-methods)
 [![Install size](https://packagephobia.com/badge?p=allowed-methods)](https://packagephobia.com/result?p=allowed-methods)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
