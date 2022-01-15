@@ -1,6 +1,6 @@
 {
 	"name": "allowed-methods",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "Allow a set of HTTP methods",
 	"main": "index.js",
 	"homepage": "https://github.com/acestojanoski/allowed-methods#readme",
