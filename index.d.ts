@@ -1,8 +1,9 @@
-import {IncomingMessage, OutgoingMessage} from 'http';
+import {IncomingMessage, OutgoingMessage} from 'http'
 
-declare module 'allowed-methods' {
-	type Handler = (req: IncomingMessage, res: OutgoingMessage, ...rest) => any;
+export type Method = 'get' | 'post' | 'put' | 'patch' | 'delete'
 
-	function restMethods(methods: string[]): (handler: Handler) => any;
-	export = restMethods;
-}
+export type AllowedMethodsHandler = (req: IncomingMessage, res: OutgoingMessage, ...rest) => any
+
+export default function allowedMethods<T extends (...args) => any = AllowedMethodsHandler>(
+	methods: Method[],
+): (handler: T) => ReturnType<T>

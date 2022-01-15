@@ -42,6 +42,7 @@
 		"xo": "^0.44.0"
 	},
 	"xo": {
+		"prettier": true,
 		"ignores": [
 			"examples"
 		],
