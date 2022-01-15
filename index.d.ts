@@ -6,4 +6,4 @@ export type AllowedMethodsHandler = (req: IncomingMessage, res: OutgoingMessage,
 
 export default function allowedMethods<T extends (...args) => any = AllowedMethodsHandler>(
 	methods: Method[],
-): (handler: T) => ReturnType<T>
+): (handler: T) => T
