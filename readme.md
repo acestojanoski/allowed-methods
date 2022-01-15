@@ -44,7 +44,7 @@ module.exports = allowedMethods(['get'])((req, res) => {
 
 #### methods
 
-Type: `'get' | 'post' | 'put' | 'patch' | 'delete'`
+Type: `('get' | 'post' | 'put' | 'patch' | 'delete')[]`
 
 An array of allowed HTTP methods.
 
